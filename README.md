@@ -1,0 +1,1 @@
+Simple cmake-based project example with configured VSCode
