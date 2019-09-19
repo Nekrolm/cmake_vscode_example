@@ -12,10 +12,10 @@ build_debug: CMakeLists.txt
 
 
 #build
-release_bin: release
+release_bin: | release
 	cmake --build release
 
-debug_bin: debug
+debug_bin: | debug
 	cmake --build debug
 
 release: build_release
