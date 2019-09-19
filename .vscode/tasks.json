@@ -24,6 +24,12 @@
             "type": "shell",
             "command": "make format",
             "problemMatcher": []
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+            "problemMatcher": []
         }
     ]
 }
