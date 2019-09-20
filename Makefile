@@ -29,7 +29,7 @@ clean:
 	rm -rf debug
 	
 format:
-	clang-format -i src/*
+	clang-format -i src/* include/*
 
 
 .PHONY: clean format
