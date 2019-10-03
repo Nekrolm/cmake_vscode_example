@@ -23,3 +23,5 @@ if (CMAKE_BUILD_TYPE MATCHES Debug)
         target_link_options(${PROJECT_NAME} PRIVATE ${SANITIZER_FLAGS})    
     endif()
 endif()
+
+add_subdirectory(src)
